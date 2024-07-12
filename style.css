@@ -1,0 +1,282 @@
+header{
+    text-align: center;
+    font-size: 100%;
+    color:#E1E1E2;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 2%;
+    background-color: #05042f;
+}
+
+.header img.logo-market {
+    max-width: 15%;
+    height: auto;
+}
+
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    background: #E1E1E2;
+    margin: 10px; 
+    padding: 0;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.producto {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: left; 
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h2 {
+    font-size: 1.3em;
+    margin: 15px 0 10px;
+    font-weight: bold;
+}
+
+.producto p {
+    font-size: 1em;
+    color: #666;
+    text-align: left; 
+}
+
+.producto button {
+    background-color: #43c330;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comprar-button {
+    color: white;
+    text-decoration: none;
+    background-color: #43c330;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.comprar-button:hover {
+    background-color: #43c330;
+}
+
+@media (max-width: 768px) {
+    .producto {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .producto {
+        width: calc(100% - 40px);
+    }
+}
+
+#section{
+    width: 90%;
+}
+
+#clients{
+    width: 200px;
+}
+
+#contact{
+    padding-top: 30px;
+    width: 100%;
+}
+
+
+header h1{
+    font-size:30px;
+}
+
+
+header p{
+    font-style: italic;
+}
+
+p{
+    text-align: center;
+}
+
+#preg{
+    font-size: 20px;
+    color: #43c330;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color:#43c330;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Canva Sans', sans-serif; /* Aplicando la tipografía Canva Sans */
+  }
+  
+.button:hover {
+background-color: #43c330;
+}  
+  
+.resenas {
+    margin: 0 40px; /* Margen a ambos lados del contenido */
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.margin-gif{    
+    margin-right: 50px; 
+}
+
+
+/* ----------------------------------- */
+
+footer {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    padding: 0;
+    background-color: #05042f;
+}
+
+.footer-original {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #05042f;
+    color: white;
+    padding: 40px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.footer-columna {
+    text-align: left;
+    margin: 0 10px; /* Margen lateral de 10px */
+}
+
+
+.footer-columna:nth-child(1),
+.footer-columna:nth-child(2),
+.footer-columna:nth-child(3) {
+    flex: 0 0 10%; /* 20% para las 3 primeras columnas */
+}
+
+.footer-columna:nth-child(4) {
+    flex: 0 0 30%; /* 30% para la cuarta columna */
+}
+
+.footer-columna img.logo {
+    max-width: 130%;
+    height: auto;
+}
+
+.footer-columna h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color:#43c330;
+}
+
+.footer-columna h4 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color:#ffffff;
+}
+
+.footer-columna p, .footer-columna a {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.footer-columna a.social-button {
+    color: white;
+    text-decoration: none;
+    border: 2px solid #43c330; 
+    background-color: transparent; 
+    padding: 5px 5px;
+    display: block; 
+    border-radius: 7px;
+    margin: 0 0 10px; 
+    text-align: center;
+    width: 100px;
+}
+
+
+.footer-columna a.community-button {
+    color: #05042f;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #43c330; 
+    padding: 10px;
+    display: inline-block; /* Cambia a block para centrar */
+    border-radius: 7px;
+    margin: 5px auto; /* Centra el botón */
+    text-align: center;
+    width: 85%; /* Ajusta el ancho del botón */
+    margin-bottom: 20px;
+}
+
+
+.footer-columna a.social-button:hover, .footer-columna a.community-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente al pasar el ratón */
+}
+
+.footer-columna img.mapa {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .footer-columna {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-columna {
+        max-width: 100%;
+    }
+}
+
+
+/* ----------------------------------- */
+
+.footer-creditos{
+    color:#ffffff;
+    background: #1f1f1f ;
+    padding: 1px;
+    font-size: 11px;
+}
